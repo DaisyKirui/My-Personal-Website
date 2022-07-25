@@ -1,0 +1,184 @@
+body {
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+    padding: 20px 80px 0px 10px;
+    color: white;
+    background-color: black;
+    max-width: 1400px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    min-height: 70px;
+    display: flex;
+    padding-left: 20px; 
+    background-color: black; 
+    width: 100%;
+    z-index: 5;
+    color: white;
+}
+
+.navigation {
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: medium;
+}
+
+h3 {
+    margin-left: 120px;
+    padding: 20px auto;
+    color: white;
+    padding-right: 40px;
+}
+
+[href]:hover {
+    color:  rgb(36, 78, 43);
+}
+
+header {
+    position: relative;
+    top: 70px;
+    padding: 2px 0px 20px 20px;
+    max-width: 100%;
+    margin-bottom: 40px;
+    min-height: 800px;
+}
+
+#avatar {
+    position: absolute;
+    top: 200px;
+    max-width: 500px;
+    min-height: 600px;
+    left: 750px;
+}
+
+h4 {
+    color: grey;
+    font-size:xx-large;
+    font-family: cursive;
+    max-width: 400px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+
+#emailbox {
+    position: relative;
+    top: 150px;
+    background-color: rgb(36, 78, 43);
+    border-radius: 10px;
+    font-size: large;
+    padding: 15px;
+    margin: 20px;
+    opacity: 70%;
+    color: white;
+}
+
+
+#resume {
+    position: relative;
+    margin: 10px;
+}
+.place {
+    color: white;
+    padding-bottom: 3px;
+    font-size: larger;
+}
+.date {
+    font-size: small;
+    color: grey;
+}
+
+h1 {
+    color: rgb(36, 78, 43);
+    font-size: 3cm;
+}
+  
+.headers {
+    color: grey;
+    font-size: 1.5cm;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    opacity: 40%;
+    align-self: right;
+}
+
+#skills {
+    position: relative;
+    top: 3px;
+    display: flex;
+    gap: 3cm;
+
+}
+
+.content {
+    position: relative;
+    padding: 20px 5px 20px 30px;
+    margin: 20px 40px 20px 20px;
+    font-weight: 200;
+    font-size: larger;
+}
+
+.subheadings {
+    background-color: rgba(36, 78, 43, 0.393);
+    color: white;   
+    position: relative;
+    top: 50px;
+    max-width: 450px; 
+    margin: 40px;
+    padding: 40px 20px 20px 40px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+li {
+    padding: 10px;
+    margin: 10px 20px 10px 0px;
+    display: flex;
+    max-width: 280px;
+    
+}
+ #articles {
+    position: relative;
+ }
+
+#posts {
+    display: block;
+    position: relative;
+    left: 0px;
+    padding: 30px;
+
+}
+
+.blogposts {
+    min-height: 300px;
+    max-width: 450px;
+    margin: 15px 20px;    
+}
+
+.articlelinks{
+    font-size: large;
+    font-weight: 400;
+}
+
+footer{
+    position: relative;
+    min-height: 70px;
+    bottom: 0%;
+    padding: 40px 40px 10px 40px;
+    max-width: 95%;
+}
+.socialmedia{
+    position: relative;
+    max-width: 250px;
+    min-height: 250px;
+    border-radius: 5px;
+    text-align: justify;
+    color: white;
+    margin: 20px 60px 10px 150px;
+    font-size: x-large;
+}

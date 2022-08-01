@@ -1,11 +1,11 @@
 body {
     position: relative;
     bottom: 70px;
-    margin: 0 auto;
-    padding: 20px 80px 0px 10px;
+    margin: 0px 40px 0px 0px;
+    padding: 20px 0px 0px 30px;
     color: white;
     background-color: black;
-    max-width: 1400px;
+    max-width: 100%;
 }
 
 #navbar {
@@ -42,34 +42,41 @@ h3 {
 
 header {
     position: relative;
-    top: 70px;
-    padding: 2px 0px 20px 20px;
+    top: 30px;
+    padding: 2px 0px 20px 50px;
     max-width: 100%;
     margin-bottom: 40px;
-    min-height: 600px;
+    min-height: 500px;
+}
+h1 {
+    position: relative;
+    top: 80px;
+    color: rgb(36, 78, 43);
+    font-size: 2.5cm;
+    padding-left: 30px;
 }
 
 #avatar {
-    position: absolute;
-    top: 180px;
-    max-width: 300px;
-    min-height: 400px;
-    left: 750px;
+    position: relative;
+    top: 60px;
+    max-width: 80%;
+    min-height: 300px;
+    left: 600px;
 }
 
 h4 {
     color: grey;
     font-size:x-large;
-    font-family: cursive;
+    font-style: italic;
     max-width: 400px;
     position: relative;
-    top: 100px;
+    top: -70px;
     left: 30px;
 }
 
 #emailbox {
     position: relative;
-    top: 120px;
+    top: -30px;
     background-color: rgb(36, 78, 43);
     border-radius: 10px;
     font-size: large;
@@ -79,11 +86,6 @@ h4 {
     color: white;
 }
 
-
-#resume {
-    position: relative;
-    margin: 10px;
-}
 .place {
     color: white;
     padding-bottom: 3px;
@@ -92,19 +94,21 @@ h4 {
 .date {
     font-size: small;
     color: grey;
-}
-
-h1 {
-    color: rgb(36, 78, 43);
-    font-size: 2.5cm;
-    padding-left: 30px;
-}
-  
+    line-height: 1.5;
+} 
 .headers {
     color: grey;
     font-size: 1.5cm;
     padding: 80px 0px 20px 40px;
     opacity: 40%;
+}
+
+.content {
+    position: relative;
+    padding: 20px 5px 20px 50px;
+    margin: 20px 0px 20px 20px;
+    font-weight: 200;
+    font-size: larger;
 }
 
 #skills {
@@ -113,14 +117,6 @@ h1 {
     flex-direction: left;
     gap: 2cm;
 
-}
-
-.content {
-    position: relative;
-    padding: 20px 5px 20px 50px;
-    margin: 20px 40px 20px 20px;
-    font-weight: 200;
-    font-size: larger;
 }
 
 .lists {
@@ -165,10 +161,12 @@ li {
 }
 
 .articlelinks{
-    font-size: large;
+    font-size: small;
     font-weight: 400;
     margin: 0 auto;
     position: relative;
+    color: white;
+    font-style: italic;
 }
 
 footer{
@@ -182,13 +180,123 @@ footer{
     position: relative;
     max-width: 250px;
     min-height: 250px;
-    border-radius: 5px;
     text-align: justify;
     color: rgba(31, 84, 40, 0.998);
-    margin: 20px 60px 10px 100px;
+    margin: 50px 60px 10px 100px;
     font-size: large;
 }
 
 .socialmedia:hover{
     color:white;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 0px 70px 0px 0px;
+        width: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+    h1 {
+        position: relative;
+        top: 60px;
+        left: -5%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #avatar {
+        position: relative;
+        top: 80px;
+        max-width: 80%;
+        min-height: 300px;
+        left: 10%;
+    }
+    h4 {
+        color: grey;
+        font-size: medium;
+        font-style: italic;
+        max-width: 400px;
+        position: relative;
+        margin-bottom: 20px;
+        top: 60px;
+        left: 30px;
+    }
+    #emailbox {
+        position: relative;
+        top: 70px;
+        width: 80px;
+        background-color: rgb(36, 78, 43);
+        border-radius: 10px;
+        font-size: medium;
+        padding: 10px;
+        margin: 0px 20px 50px 20px;
+        opacity: 70%;
+        color: white;
+    }
+    #careergoal{
+        position: relative;
+        top: 100px;
+        margin-top: 0 auto;
+    }
+    #careerobjective {
+        position: relative; 
+        top: -30px;
+        padding: 20px 10px 40px 40px;
+    }
+    .headers {
+        color: grey;
+        font-size: 1cm;
+        padding: 30px 0px 0px 40px;
+        opacity: 40%;
+        margin-top: 20px;
+    }
+    .content {
+        position: relative;
+        padding: 0px -40px 0px 40px;
+        margin: 20px -40px 20px 5px;
+        font-weight: 200;
+        font-size: medium;
+        text-align: justify;
+        width: 600px;
+    }
+    #skills {
+        position: relative;
+        display: grid;
+        padding-bottom: -70px;
+    }
+    .lists {
+        background-color: rgba(36, 78, 43, 0.393);
+        color: white;   
+        position: relative;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-gap: 0px;
+        top: -80px;
+        left: 40px;
+        width: 500px; 
+        padding: 10px 0px 10px 0px;
+        font-size: medium;
+        font-weight: 400;
+    }
+    .subheadings {
+        display: none;
+    }
+    li {
+        padding-bottom: 5px;
+        margin: 0px;
+        max-width: 230px; 
+        align-self: left;
+        text-align: left;  
+    }
+    .articlelinks{
+        font-size: small;
+        font-weight: 400;
+        margin: 0 auto;
+        position: relative;
+        color: white;
+        width: 40px;
+        top: -40px;
+    }
+
 }

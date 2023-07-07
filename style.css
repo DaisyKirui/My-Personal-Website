@@ -1,165 +1,90 @@
 body {
-    position: relative;
-    bottom: 70px;
-    margin: 0px 40px 0px 0px;
-    padding: 20px 0px 0px 30px;
     color: white;
     background-color: black;
-    max-width: 100%;
 }
-
-#navbar {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    display: flex;
-    padding-left: 20px; 
-    padding-top: 10px;
-    background-color: black; 
-    width: 100%;
-    z-index: 5;
-    color: white;
-}
-
-.navigation {
-    position: relative;
-    text-align: justify;
-    color: white;
-    font-size: medium;
-}
-
-h3 {
-    margin-left: 120px;
-    padding: 20px auto;
-    color: white;
-    padding-right: 25px;
-    font-size: small;
-}
-
-[href]:hover {
-    color:  rgb(36, 78, 43);
-}
-
 header {
     position: relative;
     top: 30px;
-    padding: 2px 0px 20px 50px;
-    max-width: 100%;
-    margin-bottom: 40px;
-    min-height: 500px;
+    padding: 0px 0px 0px 70px;
+    max-width: 900px;
+    min-height: 300px;
 }
 h1 {
     position: relative;
-    top: 80px;
+    left: 299px;
+    max-width: 50%;
     color: rgb(36, 78, 43);
-    font-size: 2.5cm;
-    padding-left: 30px;
+    font-size: 2.3cm;
 }
-
-#avatar {
-    position: relative;
-    top: 60px;
-    max-width: 80%;
-    min-height: 300px;
-    left: 600px;
-}
-
 h4 {
     color: grey;
-    font-size:x-large;
+    opacity: 40%;
+    font-size: medium;
     font-style: italic;
-    max-width: 400px;
     position: relative;
-    top: -70px;
-    left: 30px;
+    top: 0px;
+    left: 299px;
 }
-
-#emailbox {
+#careergoal {
+    padding: 0px 20px 0px 10px;
     position: relative;
-    top: -30px;
-    background-color: rgb(36, 78, 43);
-    border-radius: 10px;
-    font-size: large;
-    padding: 10px;
-    margin: 20px;
-    opacity: 70%;
-    color: white;
+    top: 5px;
+    max-width: 1000px;
 }
-
-.place {
-    color: white;
-    padding-bottom: 3px;
-    font-size: larger;
-}
-.date {
-    font-size: small;
-    color: grey;
-    line-height: 1.5;
-} 
 .headers {
     color: grey;
     font-size: 1.5cm;
-    padding: 80px 0px 20px 40px;
+    padding: 5px 0px 20px 40px;
     opacity: 40%;
 }
-
 .content {
     position: relative;
-    padding: 20px 5px 20px 50px;
+    padding: 0px 60px 0px 70px;
     margin: 20px 0px 20px 20px;
-    font-weight: 200;
-    font-size: larger;
+    font-weight: 100;
+    font-size: medium;
 }
-
 #skills {
     position: relative;
-    display: flex;
-    flex-direction: left;
-    gap: 2cm;
-
+    top: 50px;
+    padding: 40px 0px 40px 0px;
 }
-
 .lists {
     background-color: rgba(36, 78, 43, 0.393);
     color: white;   
     position: relative;
-    top: 50px;
-    width: 350px; 
-    margin: 40px;
-    padding: 20px 20px 20px 10px;
+    width: 300px; 
+    padding: 20px 20px 20px 20px;
     font-size: medium;
     font-weight: 400;
 }
-
-li {
-    padding: 10px;
-    margin: 0px 20px 10px 0px;
+#columns {
     display: flex;
-    max-width: 280px;   
+    flex-direction: left;
+    gap: 6cm;
+    position: relative;
+    padding: 0px 0px 10px 75px; 
+    margin-left: 30px;
 }
-.subheadings {
-    align-self: center;
-    font-size:x-large;
-    padding: 0px 30px
+li {
+    margin: 0px 20px 10px 0px;
+    display: flex;   
 }
-
  #articles {
-    position: relative;       
+    position: relative; 
+    top: 50px;   
 }
-
 #posts {
     display: block;
     position: relative;
     left: 0px;
-    padding: 20px;
+    padding: 10px;
 }
-
 .blogposts {
-    min-height: 300px;
-    max-width: 400px;
-    margin: 20px 0px 0px 0px;    
+    min-height: 280px;
+    max-width: 350px;
+    margin: 20px 0px 0px 50px;    
 }
-
 .articlelinks{
     font-size: small;
     font-weight: 400;
@@ -168,135 +93,21 @@ li {
     color: white;
     font-style: italic;
 }
-
 footer{
     position: relative;
     min-height: 70px;
-    bottom: 0%;
-    padding: 40px 40px 10px 40px;
-    max-width: 95%;
+    top: 130px;
+    padding: 0px 20px 0px 50px;
+    max-width: 900px;
 }
 .socialmedia{
     position: relative;
-    max-width: 250px;
-    min-height: 250px;
-    text-align: justify;
-    color: rgba(31, 84, 40, 0.998);
-    margin: 50px 60px 10px 100px;
-    font-size: large;
-}
-
-.socialmedia:hover{
-    color:white;
-}
-
-@media only screen and (max-width: 600px) {
-    body{
-        padding: 0px 70px 0px 0px;
-        width: 100%;
-    }
-    .navigation {
-        display: none;
-    }
-    h1 {
-        position: relative;
-        top: 60px;
-        left: -5%;
-        width: 80%;
-        margin: 0 auto;
-    }
-    #avatar {
-        position: relative;
-        top: 80px;
-        max-width: 80%;
-        min-height: 300px;
-        left: 10%;
-    }
-    h4 {
-        color: grey;
-        font-size: medium;
-        font-style: italic;
-        max-width: 400px;
-        position: relative;
-        margin-bottom: 20px;
-        top: 60px;
-        left: 30px;
-    }
-    #emailbox {
-        position: relative;
-        top: 70px;
-        width: 80px;
-        background-color: rgb(36, 78, 43);
-        border-radius: 10px;
-        font-size: medium;
-        padding: 10px;
-        margin: 0px 20px 50px 20px;
-        opacity: 70%;
-        color: white;
-    }
-    #careergoal{
-        position: relative;
-        top: 100px;
-        margin-top: 0 auto;
-    }
-    #careerobjective {
-        position: relative; 
-        top: -30px;
-        padding: 20px 10px 40px 40px;
-    }
-    .headers {
-        color: grey;
-        font-size: 1cm;
-        padding: 30px 0px 0px 40px;
-        opacity: 40%;
-        margin-top: 20px;
-    }
-    .content {
-        position: relative;
-        padding: 0px -40px 0px 40px;
-        margin: 20px -40px 20px 5px;
-        font-weight: 200;
-        font-size: medium;
-        text-align: justify;
-        width: 600px;
-    }
-    #skills {
-        position: relative;
-        display: grid;
-        padding-bottom: -70px;
-    }
-    .lists {
-        background-color: rgba(36, 78, 43, 0.393);
-        color: white;   
-        position: relative;
-        display: grid;
-        grid-template-columns: 250px 250px;
-        grid-gap: 0px;
-        top: -80px;
-        left: 40px;
-        width: 500px; 
-        padding: 10px 0px 10px 0px;
-        font-size: medium;
-        font-weight: 400;
-    }
-    .subheadings {
-        display: none;
-    }
-    li {
-        padding-bottom: 5px;
-        margin: 0px;
-        max-width: 230px; 
-        align-self: left;
-        text-align: left;  
-    }
-    .articlelinks{
-        font-size: small;
-        font-weight: 400;
-        margin: 0 auto;
-        position: relative;
-        color: white;
-        width: 40px;
-        top: -40px;
-    }
-
+    left: 60px;
+    background-color: rgb(36, 78, 43);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+    margin-left: 110px;
+    opacity: 70%;
+    color: white;
 }
